@@ -6,22 +6,42 @@
 
 header {
     border: 1px solid black;
+    display: flex;
+    
 }
 
 .logo{
     border: 3px solid black;
     background: red;
+    flex: 2 1 auto;
 }
 
 .buscador {
     border: 3px solid black;
     background: seashell;
+    flex: 1 2 auto;
 }
 
 .menu {
     border: 3px solid black;
     background: blue;
+    display: flex;
+    flex: 2 1 auto;
+
 }
+
+.ingresar {
+    border: 3px solid black;
+    background: deepskyblue;
+}
+
+.carrito {
+    border: 3px solid black;
+    background: gold;
+}
+
+
+
 
 section {
     border: 3px solid darkorchid;
