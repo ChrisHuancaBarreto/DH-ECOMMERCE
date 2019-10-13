@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+header {
+    border: 1px solid black;
+}
+
+.logo{
+    border: 3px solid black;
+    background: red;
+}
+
+.buscador {
+    border: 3px solid black;
+    background: seashell;
+}
+
+.menu {
+    border: 3px solid black;
+    background: blue;
+}
+
+section {
+    border: 3px solid darkorchid;
+    background: coral;
+    
+}
+
+article{
+    border: 3px solid gold;
+    background: cyan;
+}
+
+footer {
+    border: 3px solid grey;
+    background: indigo;
+}
+
+.nosotros{
+    border: 3px solid aqua;
+    background: darkgreen;
+}
+
+.redes {
+    border: 3px solid darkorange;
+    background: darkviolet;
+}
