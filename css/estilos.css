@@ -7,40 +7,48 @@
 header {
     border: 1px solid black;
     display: flex;
+    background: black;
+    
     
 }
 
 .logo{
     border: 3px solid black;
-    background: red;
+    background: black;
     flex: 2 1 auto;
+    width: 180px;
+    height: auto;
 }
 
 .buscador {
     border: 3px solid black;
-    background: seashell;
-    flex: 1 2 auto;
+    background: black;
+    flex: 1 1 auto;
     display: flex;
     justify-content: center;
+    align-self: center;
 }
 
 .menu {
     border: 3px solid black;
-    background: blue;
+    background: black;
     display: flex;
     flex: 2 1 auto;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-self: center;
 
 }
 
 .ingresar {
     border: 3px solid black;
-    background: deepskyblue;
+    background: black;
+
 }
 
 .carrito {
     border: 3px solid black;
-    background: gold;
+    background: black;
+
 }
 
 
@@ -51,6 +59,7 @@ section {
     background: coral;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     
 }
 
